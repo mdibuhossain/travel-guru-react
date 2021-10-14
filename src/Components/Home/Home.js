@@ -1,5 +1,6 @@
 import React from 'react';
 import './Home.css';
+import { FaArrowCircleRight } from 'react-icons/fa';
 
 const Home = () => {
     return (
@@ -12,7 +13,7 @@ const Home = () => {
                     <div className="text-white text-center">
                         <h1 className="text-8xl font-bold text-center">COX'S BAZAR</h1>
                         <p className="py-5 w-9/12 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae incidunt vel et eius porro velit sequi, tenetur magni iusto dolore.</p>
-                        <button className="bg-yellow-400 text-gray-900 px-5 py-2 font-semibold rounded-lg">Booking</button>
+                        <button className="bg-yellow-400 text-gray-900 px-5 py-2 font-semibold rounded-lg">Booking <FaArrowCircleRight className="inline-block" /></button>
                     </div>
                 </div>
             </div>
