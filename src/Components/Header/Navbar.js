@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 
 const navigation = [
-    { name: 'News', to: '/home', current: false },
+    { name: 'Home', to: '/home', current: false },
     { name: 'Destination', to: '/home', current: false },
     { name: 'Blog', to: '/home', current: false },
     { name: 'Contact', to: '/login', current: false },
@@ -19,7 +19,7 @@ function classNames(...classes) {
 const Navbar = () => {
     return (
         <>
-            <Disclosure as="nav" className="bg-gray-800">
+            <Disclosure as="nav" className="bg-gray-800 absolute z-10 w-full">
                 {({ open }) => (
                     <>
                         <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
