@@ -85,6 +85,7 @@ const Login = () => {
                     </div>
 
                 </form>
+                <hr />
                 <div className="flex justify-between">
                     <button
                         onClick={signWithGoogle}

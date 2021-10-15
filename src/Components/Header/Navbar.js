@@ -22,7 +22,7 @@ const Navbar = () => {
     console.log(user);
     return (
         <>
-            <Disclosure as="nav" className="bg-gray-800 absolute z-10 w-full">
+            <Disclosure as="nav" className="bg-gray-800 z-10 w-full fixed top-0">
                 {({ open }) => (
                     <>
                         <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -135,7 +135,9 @@ const Navbar = () => {
                                                 </Menu.Items>
                                             </Transition>
                                         </Menu>
-                                    </div> : <NavLink to="/login"><button className="bg-blue-400 hover:bg-blue-300 font-bold px-4 py-1 rounded-xl">Login</button></NavLink>
+                                    </div> : <NavLink to="/login">
+                                        <button className="bg-indigo-500 hover:bg-blue-400 font-bold px-4 py-1 rounded-xl">Login</button>
+                                    </NavLink>
                                 }
                             </div>
                         </div>

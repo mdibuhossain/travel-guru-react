@@ -1,5 +1,12 @@
-.App {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding-top: 64px;
+  font-family: 'Poppins', sans-serif;
 }
