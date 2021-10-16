@@ -15,7 +15,7 @@ const Feature = () => {
     return (
         <div className="my-10">
             <h4 className="text-center text-4xl font-semibold underline tracking-widest my-9">Featured Rooms</h4>
-            <div className="grid grid-cols-3 gap-9 w-4/5 mx-auto">
+            <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-9 w-4/5 mx-auto">
                 {
                     featuredData.map(item => {
                         return (
