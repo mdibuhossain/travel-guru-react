@@ -23,16 +23,16 @@ export const RoomData = [
       ],
       images: [
         {
-          url: "./Images/room-1.jpeg"
+          url: "/Images/room-1.jpeg"
         },
         {
-          url: "./Images/details-2.jpeg"
+          url: "/Images/details-2.jpeg"
         },
         {
-          url: "./Images/details-3.jpeg"
+          url: "/Images/details-3.jpeg"
         },
         {
-          url: "./Images/details-4.jpeg"
+          url: "/Images/details-4.jpeg"
         }
       ]
     }
@@ -61,16 +61,16 @@ export const RoomData = [
       ],
       images: [
         {
-          url: "./Images/room-2.jpeg"
+          url: "/Images/room-2.jpeg"
         },
         {
-          url: "./Images/details-2.jpeg"
+          url: "/Images/details-2.jpeg"
         },
         {
-          url: "./Images/details-3.jpeg"
+          url: "/Images/details-3.jpeg"
         },
         {
-          url: "./Images/details-4.jpeg"
+          url: "/Images/details-4.jpeg"
         }
       ]
     }
@@ -99,16 +99,16 @@ export const RoomData = [
       ],
       images: [
         {
-          url: "./Images/room-3.jpeg"
+          url: "/Images/room-3.jpeg"
         },
         {
-          url: "./Images/details-2.jpeg"
+          url: "/Images/details-2.jpeg"
         },
         {
-          url: "./Images/details-3.jpeg"
+          url: "/Images/details-3.jpeg"
         },
         {
-          url: "./Images/details-4.jpeg"
+          url: "/Images/details-4.jpeg"
         }
       ]
     }
@@ -137,16 +137,16 @@ export const RoomData = [
       ],
       images: [
         {
-          url: "./Images/room-4.jpeg"
+          url: "/Images/room-4.jpeg"
         },
         {
-          url: "./Images/details-2.jpeg"
+          url: "/Images/details-2.jpeg"
         },
         {
-          url: "./Images/details-3.jpeg"
+          url: "/Images/details-3.jpeg"
         },
         {
-          url: "./Images/details-4.jpeg"
+          url: "/Images/details-4.jpeg"
         }
       ]
     }
@@ -175,16 +175,16 @@ export const RoomData = [
       ],
       images: [
         {
-          url: "./Images/room-5.jpeg"
+          url: "/Images/room-5.jpeg"
         },
         {
-          url: "./Images/details-2.jpeg"
+          url: "/Images/details-2.jpeg"
         },
         {
-          url: "./Images/details-3.jpeg"
+          url: "/Images/details-3.jpeg"
         },
         {
-          url: "./Images/details-4.jpeg"
+          url: "/Images/details-4.jpeg"
         }
       ]
     }
@@ -213,16 +213,16 @@ export const RoomData = [
       ],
       images: [
         {
-          url: "./Images/room-6.jpeg"
+          url: "/Images/room-6.jpeg"
         },
         {
-          url: "./Images/details-2.jpeg"
+          url: "/Images/details-2.jpeg"
         },
         {
-          url: "./Images/details-3.jpeg"
+          url: "/Images/details-3.jpeg"
         },
         {
-          url: "./Images/details-4.jpeg"
+          url: "/Images/details-4.jpeg"
         }
       ]
     }
@@ -251,16 +251,16 @@ export const RoomData = [
       ],
       images: [
         {
-          url: "./Images/room-7.jpeg"
+          url: "/Images/room-7.jpeg"
         },
         {
-          url: "./Images/details-2.jpeg"
+          url: "/Images/details-2.jpeg"
         },
         {
-          url: "./Images/details-3.jpeg"
+          url: "/Images/details-3.jpeg"
         },
         {
-          url: "./Images/details-4.jpeg"
+          url: "/Images/details-4.jpeg"
         }
       ]
     }
@@ -289,16 +289,16 @@ export const RoomData = [
       ],
       images: [
         {
-          url: "./Images/room-8.jpeg"
+          url: "/Images/room-8.jpeg"
         },
         {
-          url: "./Images/details-2.jpeg"
+          url: "/Images/details-2.jpeg"
         },
         {
-          url: "./Images/details-3.jpeg"
+          url: "/Images/details-3.jpeg"
         },
         {
-          url: "./Images/details-4.jpeg"
+          url: "/Images/details-4.jpeg"
         }
       ]
     }
@@ -327,16 +327,16 @@ export const RoomData = [
       ],
       images: [
         {
-          url: "./Images/room-9.jpeg"
+          url: "/Images/room-9.jpeg"
         },
         {
-          url: "./Images/details-2.jpeg"
+          url: "/Images/details-2.jpeg"
         },
         {
-          url: "./Images/details-3.jpeg"
+          url: "/Images/details-3.jpeg"
         },
         {
-          url: "./Images/details-4.jpeg"
+          url: "/Images/details-4.jpeg"
         }
       ]
     }
@@ -365,16 +365,16 @@ export const RoomData = [
       ],
       images: [
         {
-          url: "./Images/room-1.jpeg"
+          url: "/Images/room-1.jpeg"
         },
         {
-          url: "./Images/details-2.jpeg"
+          url: "/Images/details-2.jpeg"
         },
         {
-          url: "./Images/details-3.jpeg"
+          url: "/Images/details-3.jpeg"
         },
         {
-          url: "./Images/details-4.jpeg"
+          url: "/Images/details-4.jpeg"
         }
       ]
     }
@@ -403,16 +403,16 @@ export const RoomData = [
       ],
       images: [
         {
-          url: "./Images/room-1.jpeg"
+          url: "/Images/room-1.jpeg"
         },
         {
-          url: "./Images/details-2.jpeg"
+          url: "/Images/details-2.jpeg"
         },
         {
-          url: "./Images/details-3.jpeg"
+          url: "/Images/details-3.jpeg"
         },
         {
-          url: "./Images/details-4.jpeg"
+          url: "/Images/details-4.jpeg"
         }
       ]
     }
@@ -441,16 +441,16 @@ export const RoomData = [
       ],
       images: [
         {
-          url: "./Images/room-1.jpeg"
+          url: "/Images/room-1.jpeg"
         },
         {
-          url: "./Images/details-2.jpeg"
+          url: "/Images/details-2.jpeg"
         },
         {
-          url: "./Images/details-3.jpeg"
+          url: "/Images/details-3.jpeg"
         },
         {
-          url: "./Images/details-4.jpeg"
+          url: "/Images/details-4.jpeg"
         }
       ]
     }
@@ -479,16 +479,16 @@ export const RoomData = [
       ],
       images: [
         {
-          url: "./Images/details-1.jpeg"
+          url: "/Images/details-1.jpeg"
         },
         {
-          url: "./Images/details-2.jpeg"
+          url: "/Images/details-2.jpeg"
         },
         {
-          url: "./Images/details-3.jpeg"
+          url: "/Images/details-3.jpeg"
         },
         {
-          url: "./Images/details-4.jpeg"
+          url: "/Images/details-4.jpeg"
         }
       ]
     }

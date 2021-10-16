@@ -19,7 +19,7 @@ function classNames(...classes) {
 
 const Navbar = () => {
     const { user, logOut } = useAuth();
-    console.log(user);
+    // console.log(user);
     return (
         <>
             <Disclosure as="nav" className="bg-gray-800 z-10 w-full fixed top-0">

@@ -1,26 +1,22 @@
 import React from 'react';
-import './Home.css';
-import Hero from '../Hero/Hero';
 import { Link } from 'react-router-dom';
-import Service from '../Service/Service';
 import Banner from '../Banner/Banner';
-import Feature from '../Feature/Feature';
+import Hero from '../Hero/Hero';
+import HeroDynamic from '../StyledComponent/StyleComponent';
 
-const Home = () => {
+const RoomDetail = () => {
     return (
         <>
-            <Hero hero="homeHero">
+            <HeroDynamic img='/Images/details-1.jpeg'>
                 <Banner
-                    title="cox's bazar"
+                    title="Delux Room"
                     subtitle="deluxe rooms starting at $299"
                 >
                     <Link className="bg-blue-400 inline-block py-2 px-3 rounded-xl" to='/login'>book now</Link>
                 </Banner>
-            </Hero>
-            <Service />
-            <Feature />
+            </HeroDynamic>
         </>
     );
 };
 
-export default Home;
+export default RoomDetail;

@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Login from './Components/Login/Login';
+import RoomDetail from './Components/RoomDetail/RoomDetail';
 import Rooms from './Components/Rooms/Rooms';
 import { AuthProvider } from './Context/AuthProvider';
 import RoomsProvider from './Context/RoomsProvider';
@@ -18,13 +19,16 @@ function App() {
               <Route exact path="/">
                 <Home />
               </Route>
-              <Route path="/home">
+              <Route exact path="/home">
                 <Home />
               </Route>
-              <Route path="/rooms">
+              <Route exact path="/rooms">
                 <Rooms />
               </Route>
-              <Route path="/login">
+              <Route exact path="/rooms/:slug">
+                <RoomDetail />
+              </Route>
+              <Route exact path="/login">
                 <Login />
               </Route>
             </Switch>
