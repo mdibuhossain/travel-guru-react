@@ -1,0 +1,8 @@
+.service-item{
+    width: 80vw;
+    margin: 5rem auto;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    column-gap: 40px;
+}

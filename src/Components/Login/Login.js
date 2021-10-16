@@ -1,4 +1,5 @@
 import React from 'react';
+import './Login.css';
 import { HiLockClosed } from 'react-icons/hi';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../../Hooks/useAuth';
@@ -7,7 +8,7 @@ import { useAuth } from '../../Hooks/useAuth';
 const Login = () => {
     const { signWithGoogle } = useAuth();
     return (
-        <div className="flex-grow flex items-center justify-center  bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
+        <div className="login-container flex-grow flex items-center justify-center  bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
             <div className="max-w-md w-full space-y-8">
                 <div>
                     <img

@@ -7,8 +7,8 @@ import { useAuth } from '../../Hooks/useAuth';
 
 const navigation = [
     { name: 'Home', to: '/home', current: false },
-    { name: 'Destination', to: '/home', current: false },
-    { name: 'Blog', to: '/home', current: false },
+    { name: 'Rooms', to: '/rooms', current: false },
+    // { name: 'Blog', to: '/home', current: false },
     { name: 'Contact', to: '/login', current: false },
 ]
 
