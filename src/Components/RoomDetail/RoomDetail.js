@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { useRoomData } from '../../Hooks/useRoomData';
+import { useRoom } from '../../Hooks/useRoom';
 import Banner from '../Banner/Banner';
 import HeroDynamic from '../StyledComponent/StyleComponent';
 
 const RoomDetail = () => {
-    const { data } = useRoomData();
+    const { data } = useRoom();
     const { slug } = useParams();
     const selectedRoom = data.find(item => item.fields.slug === slug);
     console.log(selectedRoom);
