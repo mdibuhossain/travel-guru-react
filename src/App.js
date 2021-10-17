@@ -7,6 +7,7 @@ import RoomDetail from './Components/RoomDetail/RoomDetail';
 import Rooms from './Components/Rooms/Rooms';
 import { AuthProvider } from './Context/AuthProvider';
 import RoomsProvider from './Context/RoomsProvider';
+import PrivateRoute from './PrivateRoute/PrivateRoute';
 
 function App() {
   return (
@@ -25,9 +26,9 @@ function App() {
               <Route exact path="/rooms">
                 <Rooms />
               </Route>
-              <Route exact path="/rooms/:slug">
+              <PrivateRoute exact path="/rooms/:slug">
                 <RoomDetail />
-              </Route>
+              </PrivateRoute>
               <Route exact path="/login">
                 <Login />
               </Route>

@@ -34,7 +34,7 @@ const Service = () => {
                     {
                         services.map((item, index) => {
                             return (
-                                <article className="inline-block my-5" key={index}>
+                                <article className="inline-block my-5 leading-loose" key={index}>
                                     <span className="inline-block text-5xl text-gray-600">{item.icon}</span>
                                     <h6 className="text-xl font-semibold tracking-widest my-4">{item.title}</h6>
                                     <p>{item.info}</p>

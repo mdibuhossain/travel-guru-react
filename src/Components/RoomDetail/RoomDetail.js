@@ -18,7 +18,7 @@ const RoomDetail = () => {
                     <Link className="bg-blue-400 inline-block py-2 px-3 rounded-xl" to='/login'>book now</Link>
                 </Banner>
             </HeroDynamic>
-            <section className="w-11/12 mx-auto">
+            <section className="w-11/12 mx-auto my-10 leading-10 tracking-wide">
                 <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-1 gap-5 my-16">
                     {
                         selectedRoom?.fields?.images.map(perImg => {

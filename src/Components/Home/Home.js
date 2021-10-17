@@ -14,7 +14,7 @@ const Home = () => {
                     title="cox's bazar"
                     subtitle="deluxe rooms starting at $299"
                 >
-                    <Link className="bg-blue-400 inline-block py-2 px-3 rounded-xl" to='/login'>book now</Link>
+                    <Link className="bg-blue-400 inline-block py-2 px-3 rounded-xl" to='/rooms'>our rooms</Link>
                 </Banner>
             </Hero>
             <Service />

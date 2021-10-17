@@ -9,7 +9,7 @@ const RoomFilter = () => {
             <form>
                 <div>
                     <label className="block" htmlFor="type">Room Type</label>
-                    <select onChange={handleChange} className="border-2 rounded-lg p-1" name="type" id="type">
+                    <select onChange={handleChange} className="border-2 rounded-lg p-1" selected="selected" name="type" id="type">
                         {
                             Roomtype.map((item, index) => {
                                 return (
